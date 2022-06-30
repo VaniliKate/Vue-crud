@@ -1,6 +1,6 @@
 <template>
   <div v-for="task in tasks" :key="task.id">
-    <h3>{{task.company_name}}</h3>
+    <TaskssComp :task="task" />
   </div>
 </template>
 
